@@ -42,24 +42,6 @@ import java.util.*;
 		        System.out.println("");
                 System.out.println("Enter your choice: ");
                 choice=sc.nextInt();
-                // switch (choice) {
-                //     case 1:
-                //         System.out.println("Your Balance is :"+account.getBalance());
-                //         break;
-                //     case 2:
-                //         System.out.println("Enter the amount to deposit:");
-                //         double amount=sc.nextInt();
-                //         account.deposit(amount);
-                //         break;
-                //     case 3:
-                //         System.out.println("Enter the amount to withdraw :");
-                //         double amount =sc.nextInt();
-                //         account.deposit(amount);
-                //         break;
-                //     case
-                //     default:
-                //         break;
-                // }
                 if(choice ==1){
                     System.out.println("Your Balance is :"+account.getBalance());
                     break;
