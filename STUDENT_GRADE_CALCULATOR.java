@@ -1,28 +1,3 @@
-// import java.util.Scanner;
-
-// public class subjects{
-//     int sum=0;
-    
-//     public static void inputs(int no){   
-//         for(int i=1;i<=no;i++) {
-//             System.out.println("MARKS OF SUBJECT "+i);
-//             int s=sc.
-//         }
-        
-//     }
-// }
-// public class Grade{
-//          Grade(int sum){
-//             switch (sum) {
-//                 case :
-                    
-//                     break;
-            
-//                 default:
-//                     break;
-//             }
-//         }
-// }
 import java.util.*;
 public class STUDENT_GRADE_CALCULATOR {
     public static void main(String[] args) {
@@ -40,7 +15,6 @@ public class STUDENT_GRADE_CALCULATOR {
                 continue;
             }
             sum+=s;
-            // count++;
         }
         avg=sum/no_sub;
         System.out.println("TOTAL MARKS = "+sum);
@@ -60,8 +34,5 @@ public class STUDENT_GRADE_CALCULATOR {
         else{
             System.out.println("Grade : F");
         }
-
-    }
-
-    
+    }  
 }
